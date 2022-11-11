@@ -1,0 +1,94 @@
+button {
+  padding: .25rem .75rem;
+  border-radius: .15rem;
+}
+
+
+.default {
+  background-color: #fefefe;
+  border: solid thin #b9b9b9;
+}
+
+.default:hover {
+  color: #731500;
+  border: 1px solid #731500;
+  box-shadow: 0px 0px 2px #9b9b9b66, 0px 0px 5px #9b9b9b40;
+}
+
+.default:disabled {
+  background-color: #E3E2E2;
+  color: #9B9B9B;
+  border: none;
+  box-shadow: none;
+
+}
+
+.primary {
+  color: #731500;
+  background: #FFDA57;
+  border: 1px solid #DB8300;
+}
+
+.primary:hover {
+  background: #FFC700;
+  box-shadow: 0px 0px 2px #9b9b9b66, 0px 0px 5px #9b9b9b40;
+}
+
+.primary:disabled {
+  background: #E3E2E2;
+  border: none;
+  color: #9B9B9B;
+  box-shadow: none;
+}
+
+.dashed {
+  color: #731500;
+  background: #FFFDF5;
+  border: 1px dashed #DB8300;
+
+}
+
+.dashed:hover {
+  background: #FFF1C1;
+}
+
+.dashed:disabled {
+  background: #E3E2E2;
+  border: none;
+  color: #9B9B9B;
+  box-shadow: none;
+}
+
+.text {
+  color: #731500;
+  background: transparent;
+  border: none;
+}
+
+.text:hover {
+  background: #FFF1C1;
+}
+
+.text:disabled {
+  background: #F3F3F3;
+  border: none;
+  color: #9B9B9B;
+  box-shadow: none;
+}
+
+.link {
+  color: #DB8300;
+  background: transparent;
+  border: none;
+}
+
+.link:hover {
+  color: #731500;
+}
+
+.link:disabled {
+  background: transparent;
+  border: none;
+  color: #9B9B9B;
+  box-shadow: none;
+}
